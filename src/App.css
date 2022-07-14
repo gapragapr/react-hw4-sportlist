@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.main{
+  width: 1200px;
+  margin: auto;
+}
+.form form{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-input{
+  display: flex;
+  flex-direction: column;
+}
+input{
+  padding: 10px 20px;
+}
+button{
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  padding: 7px 14px;
+}
+.sport-wrapper{
+  margin-top: 70px;
+}
+.name-list{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.sport-item{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
