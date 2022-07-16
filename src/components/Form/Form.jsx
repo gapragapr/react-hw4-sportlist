@@ -29,7 +29,7 @@ export default function Form({storage, setStorage}){
         let result = true
         storageCopy.forEach(item => {
             if (item.data === data){
-                item.distance = distance
+                item.distance = Number(item.distance) + Number(distance)
                 return result = false
             } 
         })
